@@ -1,0 +1,207 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 50px;
+}
+
+.navbar ul
+{
+    display: flex;
+    gap: 34px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.company-name
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*---- Banner Styles----*/
+
+.top-banner{
+    padding: 120px;
+    display: flex;
+    gap: 133px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.banner-item{
+    width: 582px;
+}
+.banner-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.banner img{
+    width: 100%;
+}
+.banner-img
+{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding: 33px;
+}
+.banner-content{
+    font-weight: 600;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.primary-btn{
+    background-color: #E02C6D;
+    font-weight: 700;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+}
+
+.web-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+/*---Collection Section Styles---*/
+
+.collections{
+    
+    margin: 0 196px;
+}
+.collection-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.collection-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.collection-item img{
+   width: 100%;
+    
+}
+.collection-item{
+ padding: 14px;
+ background-color: white;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ border-radius: 4px;  
+}
+
+.item-info{
+
+}
+.item-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    
+
+}
+
+.item-description
+{
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+}
+.price{
+    font-size: 24px;
+    color: black;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.fa-star.filled
+{
+    color: orange;
+}
+.fa-star.empty{
+    color: gray;
+}
+
+.rating-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+
+.collection-ancor{
+    border: none;
+    color: #E02C6D;
+    font-weight: 800;
+    text-decoration: none;  
+}
+
+/*Bottom Banner Styles*/
+
+.bottom-banner{
+    display: flex;
+    gap: 96px;
+    margin: 100px 165px;
+}
+.bottom-banner-title{
+ font-size: 38px;
+ font-weight: 700;
+ margin-bottom:16px ;
+}
+
+.bottom-banner-content
+{
+
+}
+
+.bottom-banner-description{
+    font-weight: 700px;
+    color: #787885;
+    width: 501px;
+    margin-bottom: 16px;
+}
+
+/*Footer section styles*/
+
+.footer{
+    background-color: rgb(12, 12, 48);
+    color: white;
+    text-align: center;
+}
+.media-icon{
+    color: white;
+}
+.footer h2{
+    padding-top: 50px;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
